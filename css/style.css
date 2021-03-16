@@ -1,0 +1,67 @@
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.navbar{background-color: transparent;font-family: 'Montserrat', sans-serif;}
+.bg-light{background-color: rgb(75, 20, 20) !important;}
+.navbar-light .navbar-nav .nav-link{color: orangered;}
+
+
+.carousel-caption{top: 40%;}
+
+.orange-line{width: 100px; background-color: orangered; height: 3px;}
+
+.hero-text{font-size: 20px; font-weight: 600; font-family: 'Montserrat', sans-serif;}
+.media-body h5{color: orangered;}
+.media i{color: darkgray;}
+
+
+
+
+.item img:hover{
+	-webkit-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.bg-light{background-color: #E0DFDF;}
+
+
+.panel{background-color: white;}
+.panel-heading{padding: 10px 10px;}
+.panel-body{padding:10px;}
+
+.panel-title > a:before{
+	float: right !important;
+	font-family: 'Montserrat', sans-serif;;
+	content:"\f068";
+	padding-right: 5px;
+	
+	
+}
+
+
+.panel-title > a.collapsed:before{
+	float: right !important;
+	content: "\f067";
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+	text-decoration: none;
+}
+
+.contact{background: url(../img/img_bg_2-dark.jpg) no-repeat center center; background-attachment: fixed;}
+
+.contact-text{padding: 200px 10px;}
+
+
+
+
+
+
+
+
+
